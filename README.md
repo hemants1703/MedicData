@@ -1,3 +1,14 @@
+# MedicData 🩺
+A dApp that tracks your health data and keeps it completely secure on Flow Blockchain 
+
+Have you ever though of an idea where you can keep all of your health data in a single place so that you're doctor gets to know about everything related to you so that he can ensure the treatment to be a much effective one?
+
+<!-- Well you have it just right here at MedicData, where all your data is kept together on Blockchain technology so that your data is not hindered or played with ensuring your peace of mind. -->
+
+### Introducing MedicData: The DApp that securely stores your health data on the Flow Blockchain. Experience unmatched safety and peace of mind today!
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
