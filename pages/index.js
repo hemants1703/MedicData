@@ -113,8 +113,8 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <title>FCL Quickstart with NextJS</title>
-        <meta name="description" content="My first web3 app on Flow!" />
+        <title>MedicData</title>
+        <meta name="description" content="A dApp that tracks your health data and keeps it completely secure on Flow Blockchain" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="login-form">
