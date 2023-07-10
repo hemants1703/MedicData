@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    min-height: 100vh;
+    color: white;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+#__next {
+    min-height: 100vh;
+}
+
+main {
+    min-height: inherit;
+    /* background-color: pink; */
+}
+
+main .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+main .login-form h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: xxx-large;
+    font-size: -webkit-xxx-large;
+}
+
+main .login-form button {
+    margin: 50px 20px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255,255,255,0.8);
+
+    border-radius: 5px;
+    color: white;
+    font-size: 1.002rem;
+}
+
+main .login-form button:hover {
+    background-color: pink;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      cursor: pointer;
+      background-color: rgba(255,255,255,0.2);
+}
+
+.logout-button-img {
+    padding: 0;
+}
+
+.logout-button {
+    border-radius: 100% !important;
+    width: 42px;
+    height: 42px;
+}
+
+.logout-button:hover {
+    background-color: rgba(255, 0, 0, 0.7) !important;
+}
+
+.patient-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.patient-img-box {
+    margin-right: 20px;
+}
+
+.patient-card {
+    display: flex;
+    margin-top: 100px;
+}
+
+.patient-details {
+    text-align: left;
+}
